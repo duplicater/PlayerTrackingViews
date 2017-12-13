@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PlayerTrackingViews_Tests' do
+  pod 'PlayerTrackingViews', :path => '../'
+  
+  
+end

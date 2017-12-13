@@ -1,0 +1,6 @@
+framework module PlayerTrackingViews {
+  umbrella header "PlayerTrackingViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

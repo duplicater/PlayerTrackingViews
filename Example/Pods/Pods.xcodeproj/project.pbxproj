@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391728F6C2242F84762BC8CA70AEADED /* PlayerTrackingViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF2B74BAFCF21BF71A0F65A23DCE340 /* PlayerTrackingViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B3A3D550B4DAA79D188BE70A498B0D /* Pods-PlayerTrackingViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 467363289D83250D1EF39C935A39D9E5 /* Pods-PlayerTrackingViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		916D07EF32B1F70E6C43F64D3768FCD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AD8282C9E7555C7DFBC271A30A337A23 /* PlayerTrackingViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5687795887B31C683AC2EC6D6A4204 /* PlayerTrackingViews-dummy.m */; };
+		B72225FE796CE49B399CE0EAE462ADD5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 552560B54BDF7E904FD5B6B88568180D /* ReplaceMe.m */; };
+		E0F9516E8D8CC513D6377701B23894E0 /* Pods-PlayerTrackingViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5655EB8A83857F2084ACD2F20F7DB7 /* Pods-PlayerTrackingViews_Tests-dummy.m */; };
+		E7D6F33B3CC49B61F651DDDAFECFAB72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C8CF263BB861E57309E1C767174E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E4E96950BE61670875333B8C58D1EC;
+			remoteInfo = PlayerTrackingViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0052597EB7C91BC39AC66DCD5403A6C1 /* Pods_PlayerTrackingViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlayerTrackingViews_Tests.framework; path = "Pods-PlayerTrackingViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C756D0D862511D0B7FB6B21BA5961A6 /* Pods-PlayerTrackingViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PlayerTrackingViews_Tests.modulemap"; sourceTree = "<group>"; };
+		24C8ACEB3F923DB873ED81223917FDF8 /* Pods-PlayerTrackingViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlayerTrackingViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26E65B2095C8457990BACA6FC448D1C4 /* PlayerTrackingViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PlayerTrackingViews.modulemap; sourceTree = "<group>"; };
+		3D5E229535B8405F49B5FA108BBEBB86 /* PlayerTrackingViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PlayerTrackingViews.framework; path = PlayerTrackingViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467363289D83250D1EF39C935A39D9E5 /* Pods-PlayerTrackingViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlayerTrackingViews_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51E58F8D7E62D2429BD08DE70CCA674B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523354F4A5AF507760BDA4B341669235 /* Pods-PlayerTrackingViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayerTrackingViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		552560B54BDF7E904FD5B6B88568180D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PlayerTrackingViews/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		638CB432BF3F22414E3B22B2DFC9B8E8 /* PlayerTrackingViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlayerTrackingViews.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D5687795887B31C683AC2EC6D6A4204 /* PlayerTrackingViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PlayerTrackingViews-dummy.m"; sourceTree = "<group>"; };
+		91DE5280DFD72C10E91E8A5AA3A0A9E0 /* Pods-PlayerTrackingViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlayerTrackingViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B0B48D4E931EFAB30C039059EEDC05 /* Pods-PlayerTrackingViews_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayerTrackingViews_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AB5655EB8A83857F2084ACD2F20F7DB7 /* Pods-PlayerTrackingViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlayerTrackingViews_Tests-dummy.m"; sourceTree = "<group>"; };
+		AEF2B74BAFCF21BF71A0F65A23DCE340 /* PlayerTrackingViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlayerTrackingViews-umbrella.h"; sourceTree = "<group>"; };
+		D39D2FC52B694781DB49575136CFA041 /* Pods-PlayerTrackingViews_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayerTrackingViews_Tests-resources.sh"; sourceTree = "<group>"; };
+		E35C68023FE121F1D9D351CCC3924D93 /* PlayerTrackingViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlayerTrackingViews-prefix.pch"; sourceTree = "<group>"; };
+		EF7ADD78E7B57D3F638810E5E37939C8 /* Pods-PlayerTrackingViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayerTrackingViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3D0E77237B39F384C184221DBCBBA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83029750C9C32B26CEE98BA15209CA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D6F33B3CC49B61F651DDDAFECFAB72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CE16BD58848850293AFE9A4DDA2FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916D07EF32B1F70E6C43F64D3768FCD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DB7C14A77C10D25F97F102F5E8B715 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D035AE98984F1A1A5AB21A0FA76A37B /* PlayerTrackingViews */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		263DD8CB999A4691BA82FDA11B9657D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F69DAD0E366B4AA9CCA290064BB548 /* Pods-PlayerTrackingViews_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D035AE98984F1A1A5AB21A0FA76A37B /* PlayerTrackingViews */ = {
+			isa = PBXGroup;
+			children = (
+				552560B54BDF7E904FD5B6B88568180D /* ReplaceMe.m */,
+				EAA323EB8E935F48D332B6FF5EECC997 /* Support Files */,
+			);
+			name = PlayerTrackingViews;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		70CEDD65A6F04AA656E07CF3FF5766A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5E229535B8405F49B5FA108BBEBB86 /* PlayerTrackingViews.framework */,
+				0052597EB7C91BC39AC66DCD5403A6C1 /* Pods_PlayerTrackingViews_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				22DB7C14A77C10D25F97F102F5E8B715 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70CEDD65A6F04AA656E07CF3FF5766A6 /* Products */,
+				263DD8CB999A4691BA82FDA11B9657D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1F69DAD0E366B4AA9CCA290064BB548 /* Pods-PlayerTrackingViews_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D0E77237B39F384C184221DBCBBA9 /* Info.plist */,
+				0C756D0D862511D0B7FB6B21BA5961A6 /* Pods-PlayerTrackingViews_Tests.modulemap */,
+				91DE5280DFD72C10E91E8A5AA3A0A9E0 /* Pods-PlayerTrackingViews_Tests-acknowledgements.markdown */,
+				24C8ACEB3F923DB873ED81223917FDF8 /* Pods-PlayerTrackingViews_Tests-acknowledgements.plist */,
+				AB5655EB8A83857F2084ACD2F20F7DB7 /* Pods-PlayerTrackingViews_Tests-dummy.m */,
+				97B0B48D4E931EFAB30C039059EEDC05 /* Pods-PlayerTrackingViews_Tests-frameworks.sh */,
+				D39D2FC52B694781DB49575136CFA041 /* Pods-PlayerTrackingViews_Tests-resources.sh */,
+				467363289D83250D1EF39C935A39D9E5 /* Pods-PlayerTrackingViews_Tests-umbrella.h */,
+				523354F4A5AF507760BDA4B341669235 /* Pods-PlayerTrackingViews_Tests.debug.xcconfig */,
+				EF7ADD78E7B57D3F638810E5E37939C8 /* Pods-PlayerTrackingViews_Tests.release.xcconfig */,
+			);
+			name = "Pods-PlayerTrackingViews_Tests";
+			path = "Target Support Files/Pods-PlayerTrackingViews_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAA323EB8E935F48D332B6FF5EECC997 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E58F8D7E62D2429BD08DE70CCA674B /* Info.plist */,
+				26E65B2095C8457990BACA6FC448D1C4 /* PlayerTrackingViews.modulemap */,
+				638CB432BF3F22414E3B22B2DFC9B8E8 /* PlayerTrackingViews.xcconfig */,
+				8D5687795887B31C683AC2EC6D6A4204 /* PlayerTrackingViews-dummy.m */,
+				E35C68023FE121F1D9D351CCC3924D93 /* PlayerTrackingViews-prefix.pch */,
+				AEF2B74BAFCF21BF71A0F65A23DCE340 /* PlayerTrackingViews-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PlayerTrackingViews";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2215E967C8E29A615449833A660CD622 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391728F6C2242F84762BC8CA70AEADED /* PlayerTrackingViews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456742607ADB17069751DD8BEE9CDAF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B3A3D550B4DAA79D188BE70A498B0D /* Pods-PlayerTrackingViews_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97E4E96950BE61670875333B8C58D1EC /* PlayerTrackingViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F44A6EF7FEACEC57058C2AC18B6FD7 /* Build configuration list for PBXNativeTarget "PlayerTrackingViews" */;
+			buildPhases = (
+				28CCBC18B4AD5305E1E03932781E6C6C /* Sources */,
+				83029750C9C32B26CEE98BA15209CA70 /* Frameworks */,
+				2215E967C8E29A615449833A660CD622 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayerTrackingViews;
+			productName = PlayerTrackingViews;
+			productReference = 3D5E229535B8405F49B5FA108BBEBB86 /* PlayerTrackingViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE04AAB18E561B14DC75C59636F0D2F4 /* Pods-PlayerTrackingViews_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8F429F8D1488A8E6C2786D5F56FE62 /* Build configuration list for PBXNativeTarget "Pods-PlayerTrackingViews_Tests" */;
+			buildPhases = (
+				F67848CB85134722D103C7FD1218835B /* Sources */,
+				F4CE16BD58848850293AFE9A4DDA2FF7 /* Frameworks */,
+				456742607ADB17069751DD8BEE9CDAF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4D0BF8AA9CD7CD5EC88C7328637886 /* PBXTargetDependency */,
+			);
+			name = "Pods-PlayerTrackingViews_Tests";
+			productName = "Pods-PlayerTrackingViews_Tests";
+			productReference = 0052597EB7C91BC39AC66DCD5403A6C1 /* Pods_PlayerTrackingViews_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 70CEDD65A6F04AA656E07CF3FF5766A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E4E96950BE61670875333B8C58D1EC /* PlayerTrackingViews */,
+				CE04AAB18E561B14DC75C59636F0D2F4 /* Pods-PlayerTrackingViews_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CCBC18B4AD5305E1E03932781E6C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8282C9E7555C7DFBC271A30A337A23 /* PlayerTrackingViews-dummy.m in Sources */,
+				B72225FE796CE49B399CE0EAE462ADD5 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67848CB85134722D103C7FD1218835B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F9516E8D8CC513D6377701B23894E0 /* Pods-PlayerTrackingViews_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4D0BF8AA9CD7CD5EC88C7328637886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PlayerTrackingViews;
+			target = 97E4E96950BE61670875333B8C58D1EC /* PlayerTrackingViews */;
+			targetProxy = D1C8CF263BB861E57309E1C767174E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20AA0813F2434100656085EA80E7E71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638CB432BF3F22414E3B22B2DFC9B8E8 /* PlayerTrackingViews.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PlayerTrackingViews/PlayerTrackingViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlayerTrackingViews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PlayerTrackingViews/PlayerTrackingViews.modulemap";
+				PRODUCT_NAME = PlayerTrackingViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4532AC370F3AC651A62036684B958A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7ADD78E7B57D3F638810E5E37939C8 /* Pods-PlayerTrackingViews_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlayerTrackingViews_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlayerTrackingViews_Tests/Pods-PlayerTrackingViews_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PlayerTrackingViews_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6983CED37EAD4EF4EE5961325B7C68C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638CB432BF3F22414E3B22B2DFC9B8E8 /* PlayerTrackingViews.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PlayerTrackingViews/PlayerTrackingViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlayerTrackingViews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PlayerTrackingViews/PlayerTrackingViews.modulemap";
+				PRODUCT_NAME = PlayerTrackingViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BFA71CFED443670C46028D273BD3C24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523354F4A5AF507760BDA4B341669235 /* Pods-PlayerTrackingViews_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlayerTrackingViews_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlayerTrackingViews_Tests/Pods-PlayerTrackingViews_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PlayerTrackingViews_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8F429F8D1488A8E6C2786D5F56FE62 /* Build configuration list for PBXNativeTarget "Pods-PlayerTrackingViews_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA71CFED443670C46028D273BD3C24C /* Debug */,
+				4532AC370F3AC651A62036684B958A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F44A6EF7FEACEC57058C2AC18B6FD7 /* Build configuration list for PBXNativeTarget "PlayerTrackingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6983CED37EAD4EF4EE5961325B7C68C3 /* Debug */,
+				20AA0813F2434100656085EA80E7E71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
